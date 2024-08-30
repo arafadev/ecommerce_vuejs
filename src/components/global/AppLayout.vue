@@ -3,12 +3,7 @@
     <v-layout>
       <CartDrawer />
       <v-main>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
-          eius in quasi sed cumque quia dolor? Ipsa earum saepe aliquid, quia
-          velit delectus harum veritatis enim illum, consequatur debitis
-          eveniet!
-        </p>
+        <slot></slot>
       </v-main>
       <AppNav />
       <AppFooter />
